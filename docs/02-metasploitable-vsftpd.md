@@ -37,7 +37,7 @@ I obtained a root-level shell on the target using the manual trigger method. Thi
 
 ## Remediation
 If this was a real production system, I would do the following to prevent this attack:
-- Update vsftpd to a current, patched vesion
+- Update vsftpd to a current, patched vesion (Zero Trust Approach)
 - Verify software packaes against official signatures before deployment, to catch tampering like this backdoor
 - Restrict FTP access to trusted IP ranges through firewall rules
 - Disable FTP and use FTPS if file transfer is requuired
