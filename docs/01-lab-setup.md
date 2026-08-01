@@ -3,7 +3,7 @@
 ## Environment 
 
 - Hypervisor: VirtualBox
-- VMs: Kali Linux, Metasploitable2, Kioptrix
+- VMs: Kali Linux, Metasploitable2
 - Network: Host-only adapter (isolated from LAN + Internet)
 
 ## Steps Taken
